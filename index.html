@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoluTech Consulting — Project Progress</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="SoluTech Consulting Logo" class="logo-img">
+            <div class="logo-text">
+                <h1>SOLUTECH</h1>
+                <p class="tagline">Smart Solutions. Real Results.</p>
+            </div>
+        </div>
+        <nav>
+            <button class="nav-btn active" onclick="showPage('home', event)">HOME</button>
+            <button class="nav-btn" onclick="showPage('timeline', event)">TIMELINE</button>
+            <button class="nav-btn" onclick="showPage('briefing', event)">BRIEFING</button>
+            <button class="nav-btn" onclick="showPage('team', event)">TEAM</button>
+            <button class="nav-btn" onclick="showPage('about', event)">ABOUT</button>
+        </nav>
+    </header>
+
+    <!-- HOME PAGE -->
+    <section id="home" class="page active">
+        <div class="hero">
+            <img src="logo.png" alt="SoluTech Logo" class="hero-logo">
+            <h2>IMPROVING MAINTENANCE REPORTING</h2>
+            <p class="hero-sub">A Business Analysis project for Muma Properties</p>
+        </div>
+
+        <div class="card">
+            <h2>PROJECT OVERVIEW</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">HOST</span>
+                    <span class="info-value">Muma Properties</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">MENTOR</span>
+                    <span class="info-value">Kabelo Sithole (COO)</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">PERIOD</span>
+                    <span class="info-value">24 Aug – 16 Oct 2026</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">MODULE</span>
+                    <span class="info-value">XBIT7329 — WIL 3</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>THE PROBLEM</h2>
+            <p>Maintenance reporting at Muma Properties is informal and unstructured. Issues flow through WhatsApp and verbal handoffs with <strong>no logging, ticketing, prioritization, or tracking</strong>. The result: delays, frustration, and incomplete repairs.</p>
+        </div>
+
+        <div class="card">
+            <h2>OUR SOLUTION</h2>
+            <p>We are proposing a formalised, tracked reporting system that will:</p>
+            <ul class="tech-list">
+                <li>Reduce turnaround time from report to resolution</li>
+                <li>Increase first-time fix rate</li>
+                <li>Lower recurring faults through root cause resolution</li>
+                <li>Provide clear accountability and reporting data</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- TIMELINE PAGE -->
+    <section id="timeline" class="page">
+        <div class="card">
+            <h2>PROJECT TIMELINE</h2>
+            <div class="timeline-item">
+                <div class="timeline-marker done"></div>
+                <div class="timeline-content">
+                    <h3>WEEK 1-2: Project Initiation</h3>
+                    <p>Team formation, mentor meeting, project scope confirmation, project charter approval</p>
+                    <span class="status done">✅ COMPLETED</span>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker progress"></div>
+                <div class="timeline-content">
+                    <h3>WEEK 3-4: Current State Analysis</h3>
+                    <p>Organisational snapshot, SWOT/PESTLE analysis, As-Is process diagram, Gap/Issue log</p>
+                    <span class="status progress">🟡 IN PROGRESS</span>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker pending"></div>
+                <div class="timeline-content">
+                    <h3>WEEK 5-6: Requirements Analysis</h3>
+                    <p>Stakeholder interviews, initial requirements, prioritisation</p>
+                    <span class="status pending">❌ NOT STARTED</span>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker pending"></div>
+                <div class="timeline-content">
+                    <h3>WEEK 7-8: Solution Design</h3>
+                    <p>Solution options, feasibility assessment, recommendation</p>
+                    <span class="status pending">❌ NOT STARTED</span>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker pending"></div>
+                <div class="timeline-content">
+                    <h3>WEEK 9-10: Stakeholder Engagement</h3>
+                    <p>Microsoft Form, stakeholder meeting, feedback collection, Mini-RFC</p>
+                    <span class="status pending">❌ NOT STARTED</span>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker pending"></div>
+                <div class="timeline-content">
+                    <h3>WEEK 11-12: Project Closure</h3>
+                    <p>Final report, presentation, individual contribution statements</p>
+                    <span class="status pending">❌ NOT STARTED</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BRIEFING PAGE -->
+    <section id="briefing" class="page">
+        <div class="card">
+            <h2>KEY CONCEPTS THIS WEEK</h2>
+            <div class="grid-2">
+                <div class="mini-card">
+                    <div class="mini-icon">◆</div>
+                    <h3>SMART GOALS</h3>
+                    <p>Three measurable objectives guiding project planning, stakeholder engagement, and solution delivery.</p>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-icon">◇</div>
+                    <h3>STAKEHOLDER ENGAGEMENT</h3>
+                    <p>Onboarding with mentor Kabelo Sithole (COO) to establish collaboration and professionalism.</p>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-icon">◈</div>
+                    <h3>BUSINESS CHALLENGE</h3>
+                    <p>Muma Properties must manage maintenance growth — maintaining visibility across students, maintenance team, and operations.</p>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-icon">◉</div>
+                    <h3>WIL MODULE</h3>
+                    <p>Applying Business Analysis and IT principles to a real organisational challenge.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>THIS WEEK'S HIGHLIGHTS</h2>
+            <ul class="tech-list">
+                <li>Team introduced — five final-year BIT Business Systems students, IIE Rosebank College</li>
+                <li>Three SMART goals established for planning, requirements, and solution delivery</li>
+                <li>Onboarding completed with Muma Properties COO Kabelo Sithole</li>
+                <li>Initial problem identified: informal maintenance reporting at Muma Properties</li>
+                <li>Key insight: The solution should support maintenance team decision-making, not replace human judgement</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>WHAT'S NEXT?</h2>
+            <ul class="tech-list">
+                <li>Complete WBS &amp; Gantt Chart</li>
+                <li>Create Microsoft Form for stakeholder feedback</li>
+                <li>Host stakeholder meeting</li>
+                <li>Collect feedback for Mini-RFC</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- TEAM PAGE -->
+    <section id="team" class="page">
+        <div class="card">
+            <h2>CREW ROSTER</h2>
+            <p class="subtitle">The SoluTech Consulting team delivering this IT solution across all 12 weeks.</p>
+        </div>
+
+        <div class="team-grid">
+            <div class="team-card">
+                <div class="avatar">◆</div>
+                <h3>NEO NKADIMENG</h3>
+                <p class="role">Team Lead &amp; Business Analyst</p>
+                <p class="student-no">ST10440503</p>
+            </div>
+            <div class="team-card">
+                <div class="avatar">◇</div>
+                <h3>TSHIDISO MALAZA</h3>
+                <p class="role">Secretary &amp; Process Modeller</p>
+                <p class="student-no">ST10447445</p>
+            </div>
+            <div class="team-card">
+                <div class="avatar">◈</div>
+                <h3>SKHULILE BUTHELEZI</h3>
+                <p class="role">Researcher &amp; Documentation Lead</p>
+                <p class="role-sub">Project Coordinator</p>
+                <p class="student-no">ST10437542</p>
+            </div>
+            <div class="team-card">
+                <div class="avatar">◉</div>
+                <h3>TIYISELANI NDLOVU</h3>
+                <p class="role">Business Analyst</p>
+                <p class="student-no">ST10448360</p>
+            </div>
+            <div class="team-card">
+                <div class="avatar">◎</div>
+                <h3>NKOSINATHI MAMOGOBO</h3>
+                <p class="role">Technical Analyst &amp; Solution Designer</p>
+                <p class="role-sub">Business Systems Analyst</p>
+                <p class="student-no">ST10456754</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT PAGE -->
+    <section id="about" class="page">
+        <div class="card">
+            <h2>ABOUT SOLUTECH CONSULTING</h2>
+            <p>SoluTech Consulting is a student-led Business Analysis and IT consulting team from IIE Rosebank College, currently completing Work Integrated Learning (WIL) module XBIT7329.</p>
+            <p>We are partnered with Muma Properties to improve their maintenance reporting and resolution process — a real-world challenge affecting students, maintenance staff, and property management.</p>
+        </div>
+
+        <div class="card">
+            <h2>OUR VALUES</h2>
+            <div class="grid-2">
+                <div class="mini-card"><h3>REPORT</h3><p>We document everything clearly and transparently.</p></div>
+                <div class="mini-card"><h3>SCHEDULE</h3><p>We plan meticulously and deliver on time.</p></div>
+                <div class="mini-card"><h3>RESOLVE</h3><p>We solve problems with practical, tested solutions.</p></div>
+                <div class="mini-card"><h3>RELIABLE</h3><p>We are dependable and professional in all we do.</p></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>CONTACT</h2>
+            <p><strong>Mentor:</strong> Kabelo Sithole (COO, Muma Properties)</p>
+            <p><strong>Email:</strong> kabelo@muma.co.za</p>
+            <p><strong>Academic Supervisor:</strong> Nobuhle Moyo</p>
+            <p><strong>Email:</strong> nomoyo@rbi.ac.za</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <img src="logo.png" alt="SoluTech Logo" class="footer-logo">
+        <p>© 2026 SoluTech Consulting | IIE Rosebank College | WIL Module XBIT7329</p>
+        <p class="footer-tag">Better Maintenance. Stronger Community.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
